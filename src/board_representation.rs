@@ -354,7 +354,6 @@ pub mod fen {
 
     // Collect nums in character iterator to a number
     // start_index is the index to start in the iterator
-
     // E.g. collect_nums(Chars(['1', '2', '3', '4']), 0) -> 1234
     // E.g. collect_nums(Chars(['1', '2', '3', '4', ' ', '1']), 0) -> 1234
     fn collect_nums(characters: Chars<'_>, start_index: usize) -> u32 {

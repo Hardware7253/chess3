@@ -1,5 +1,5 @@
 [package]
-name = "chess_test"
+name = "chess3"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,6 +11,3 @@ num = "0.4.3"
 [dev-dependencies]
 divan = "0.1.14"
 
-[[bench]]
-name = "example"
-harness = false
